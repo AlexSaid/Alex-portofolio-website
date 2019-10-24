@@ -27,9 +27,6 @@ $('.filter-button-group').on( 'click', 'button', function() {
   $grid.isotope({ filter: filterValue });
 });
 // image loaded
-$grid.imagesLoaded().progress( function() {
-  $grid.isotope('layout');
-});
 
 
     
